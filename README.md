@@ -56,10 +56,10 @@ bigquery-google-analytics-ecommerce/
 
 ## Francais
 ### Presentation du projet
-Ce projet analyse les performances e-commerce de la Google Merchandise Store en utilisant le dataset public Google Analytics disponible nativement dans BigQuery. Il a ete realise dans le cadre d'un portfolio de data analyst pour mettre en valeur des competences pratiques en analyse SQL dans le cloud.
+Ce projet analyse les performances e-commerce de la Google Merchandise Store en utilisant le dataset public Google Analytics disponible nativement dans BigQuery. Il a été réalisé dans le cadre d'un portfolio de data analyst pour mettre en valeur des competences pratiques en analyse SQL dans le cloud.
 
 ### Contexte
-Ce projet s'inscrit dans une reconversion professionnelle vers le metier de data analyst. Apres l'obtention de la certification Google Data Analytics Professional Certificate (Coursera), cette analyse a ete conduite pour appliquer et demontrer des competences concretes sur BigQuery, SQL et l'interpretation de donnees metier.
+Ce projet s'inscrit dans une reconversion professionnelle vers le metier de data analyst. Apres l'obtention de la certification Google Data Analytics Professional Certificate (Coursera), cette analyse a ete conduite pour appliquer et demontrer des competences concretes sur BigQuery, SQL et l'interpretation de données metier.
 
 ### Jeu de donnees
 Source : Google Analytics Sample — bigquery-public-data.google_analytics_sample
@@ -86,13 +86,13 @@ Les donnees d'aout 2017 sont partielles et ont ete exclues des conclusions sur l
 Le trafic direct genere le revenu total le plus eleve (1 190 175 USD) avec 371 467 sessions.
 La recherche organique arrive en deuxieme position avec 204 889 USD sur 234 381 sessions.
 La publicite display CPM affiche le meilleur revenu par session (~12,6 USD), mais sur un echantillon limite de 6 184 sessions. Ce resultat est a interpreter avec prudence.
-A noter : les donnees de couts publicitaires ne sont pas disponibles dans ce dataset, ce qui rend impossible le calcul d'un ROI reel.
+À noter : les données de coûts publicitaires ne sont pas disponibles dans ce dataset, ce qui rend impossible le calcul d'un ROI réel.
 
 ### Comportement des visiteurs
 
-Les visiteurs recurrents ont genere environ 1 157 745 USD sur 200 593 sessions (~5,77 USD par session).
-Les nouveaux visiteurs ont genere environ 382 325 USD sur 703 060 sessions (~0,54 USD par session).
-Les visiteurs recurrents depensent environ 10 fois plus par session que les nouveaux visiteurs, ce qui suggere que les strategies de fidelisation client sont potentiellement plus rentables que les campagnes d'acquisition pure.
+Les visiteurs recurrents ont généré environ 1 157 745 USD sur 200 593 sessions (~5,77 USD par session).
+Les nouveaux visiteurs ont généré environ 382 325 USD sur 703 060 sessions (~0,54 USD par session).
+Les visiteurs récurrents dépensent environ 10 fois plus par session que les nouveaux visiteurs, ce qui suggère que les stratégies de fidélisation client sont potentiellement plus rentables que les campagnes d'acquisition pure.
 
 ### Stack technique
 Google BigQuery (SQL)
